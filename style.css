@@ -1,0 +1,54 @@
+:root {
+    --bg: #000;
+    --color-principal: #FFF;
+}
+
+@font-face {
+    font-family: 'BloggerSans';
+    src: url('BloggerSans-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--color-principal);
+    padding: 2rem 1rem;
+    font-family: "BloggerSans", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0 0 0;
+}
+
+.main {
+    display: "none";
+}
+
+.menu {
+    margin: .5rem 0;
+}
+
+.title::before {
+    content: "";
+    margin-right: .5rem;
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-principal);
+    display: inline-flex;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: .3rem;
+}
+
+.logo img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
