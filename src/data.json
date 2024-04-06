@@ -1,27 +1,44 @@
 {
     "categorias": [
       {
-        "nombre": "Categoria 1",
+        "nombre": "Frappés",
         "items": [
           {
-            "nombre": "Camiseta",
-            "descripcion": "Camiseta de algodón con cuello redondo",
-            "precio": "10€"
+            "nombre": "Caramelo",
+            "precio": "$ 60"
           },
           {
-            "nombre": "Pantalones",
-            "descripcion": "Pantalones vaqueros de corte recto",
-            "precio": "20€"
+            "nombre": "Capuchino",
+            "precio": "$ 60"
+          },
+          {
+            "nombre": "Moka",
+            "precio": "$ 60"
+          },
+          {
+            "nombre": "Fresa",
+            "precio": "$ 70"
+          },
+          {
+            "nombre": "Oreo",
+            "precio": "$ 70"
+          },
+          {
+            "nombre": "Chocolate",
+            "precio": "$ 70"
+          },
+          {
+            "nombre": "Chocolate Blanco",
+            "precio": "$ 85"
           }
         ]
       },
       {
-        "nombre": "Categoria 2",
+        "nombre": "Frappés Especiales ",
         "items": [
           {
-            "nombre": "Teléfono móvil",
-            "descripcion": "Teléfono móvil con pantalla táctil",
-            "precio": "300€"
+            "nombre": "Moka-Bailey´s",
+            "precio": "$ 85"
           }
         ]
       }

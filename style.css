@@ -2,6 +2,7 @@
     --bg: #000;
     --color-principal: #FFF;
     --color-accent: #D4AF37;
+    --color-border: #ececec2e;
 }
 
 @font-face {
@@ -47,8 +48,10 @@ header {
 
 .item {
     display: flex;
-    justify-content: space-between;
     margin: .3rem;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-border);
+
 }
 
 .logo img {
