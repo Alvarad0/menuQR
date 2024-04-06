@@ -1,0 +1,29 @@
+{
+    "categorias": [
+      {
+        "nombre": "Categoria 1",
+        "items": [
+          {
+            "nombre": "Camiseta",
+            "descripcion": "Camiseta de algodón con cuello redondo",
+            "precio": "10€"
+          },
+          {
+            "nombre": "Pantalones",
+            "descripcion": "Pantalones vaqueros de corte recto",
+            "precio": "20€"
+          }
+        ]
+      },
+      {
+        "nombre": "Categoria 2",
+        "items": [
+          {
+            "nombre": "Teléfono móvil",
+            "descripcion": "Teléfono móvil con pantalla táctil",
+            "precio": "300€"
+          }
+        ]
+      }
+    ]
+  }

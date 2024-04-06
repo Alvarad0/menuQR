@@ -1,11 +1,12 @@
 :root {
     --bg: #000;
     --color-principal: #FFF;
+    --color-accent: #D4AF37;
 }
 
 @font-face {
     font-family: 'BloggerSans';
-    src: url('BloggerSans-Medium.woff') format('woff');
+    src: url('src/BloggerSans-Medium.woff') format('woff');
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -31,12 +32,16 @@ header {
     margin: .5rem 0;
 }
 
+.title {
+    color: var(--color-accent);
+}
+
 .title::before {
     content: "";
     margin-right: .5rem;
     width: 25px;
     height: 3px;
-    background-color: var(--color-principal);
+    background-color: var(--color-accent);
     display: inline-flex;
 }
 
