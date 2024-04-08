@@ -5,27 +5,19 @@
     --color-border: #ececec2e;
 }
 
-/*@font-face {
-    font-family: 'BloggerSans';
-    src: url('src/BloggerSans-Medium.woff') format('woff');
-    font-style: normal;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-}
-
 @font-face {
     font-family: 'Alanta';
     src: url('src/AlantaRosery.otf') format('opentype');
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-}*/
+}
 
 body {
     background-color: var(--bg);
     color: var(--color-principal);
     padding: 16px;
-    /*font-family: "BloggerSans", sans-serif;*/
+    font-family: "Poppins", sans-serif;
 }
 
 header {
