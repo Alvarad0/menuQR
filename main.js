@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("src/data.json")
     .then(response => response.json())
     .then(data => {
-        console.log(data)
         let menu = $(".menu")
         let section = ""
 
@@ -12,11 +11,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="list">`
 
             element.items.forEach(item => {
-                section += `
-                <div class="item">
-                    <span>${item.nombre}</span>
-                    <span>${item.precio}</span>
+                let subgrupo = ""
+                if (typeof item.subgrupo !== "undefined") {
+                    item.subgrupo.forEach(descri => subgrupo += `<p class="subgrupo">${descri.descri}</p>`)
+                }
+
+                section += `<div class="item-master">
+                    <div class="item">
+                        <span>${item.nombre}</span>
+                        <span>${item.precio}</span>
+                    </div>
+                    ${subgrupo}
                 </div>`
+                
             })
             section += `</div>
             </section>`

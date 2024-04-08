@@ -13,10 +13,18 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'Alanta';
+    src: url('src/AlantaRosery.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
 body {
     background-color: var(--bg);
     color: var(--color-principal);
-    padding: 2rem 1rem;
+    padding: 1rem;
     font-family: "BloggerSans", sans-serif;
 }
 
@@ -25,15 +33,17 @@ header {
     padding: 1.5rem 0 0 0;
 }
 
-.main {
-    display: "none";
+header h2 {
+    font-family: "Alanta", sans-serif;
 }
 
 .menu {
-    margin: .5rem 0;
+    font-size: 20px;
 }
 
 .title {
+    font-family: "Alanta", sans-serif;
+    font-size: 25px;;
     color: var(--color-accent);
 }
 
@@ -46,17 +56,37 @@ header {
     display: inline-flex;
 }
 
+.item-master {
+    border-bottom: 1px solid var(--color-border);
+}
+
 .item {
     display: flex;
     margin: .3rem;
     justify-content: space-between;
-    border-bottom: 1px solid var(--color-border);
+}
 
+.subgrupo {
+    font-style: italic;
+    font-size: 11px;
+    margin: 0 0 .2rem 2rem;
 }
 
 .logo img {
-    width: 80%;
+    width: 50%;
     max-width: 300px;
     margin: 0 auto;
 }
 
+footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    font-size: small;
+    color: gray;
+}
+
+footer a {
+    color: gray;
+    margin-left: .5rem;
+}
