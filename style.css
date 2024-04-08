@@ -90,3 +90,10 @@ footer a {
     color: gray;
     margin-left: 8px;
 }
+
+@media only screen and (max-width: 500px) {
+    html { 
+        font-size:50%; 
+        -webkit-text-size-adjust:none; 
+    }
+}
