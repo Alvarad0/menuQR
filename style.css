@@ -5,7 +5,7 @@
     --color-border: #ececec2e;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'BloggerSans';
     src: url('src/BloggerSans-Medium.woff') format('woff');
     font-style: normal;
@@ -19,13 +19,13 @@
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-}
+}*/
 
 body {
     background-color: var(--bg);
     color: var(--color-principal);
     padding: 16px;
-    font-family: "BloggerSans", sans-serif;
+    /*font-family: "BloggerSans", sans-serif;*/
 }
 
 header {
